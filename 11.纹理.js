@@ -1,5 +1,4 @@
-// TexturedQuad.js (c) 2012 matsuda and kanda
-// Vertex shader program
+// 顶点着色器
 var vertexShaderSource =
   'attribute vec4 a_Position;\n' +
   'attribute vec2 a_TexCoord;\n' +
@@ -9,7 +8,7 @@ var vertexShaderSource =
   '  v_TexCoord = a_TexCoord;\n' +
   '}\n';
 
-// Fragment shader program
+// 片元着色器
 var fragmentShaderSource =
   '#ifdef GL_ES\n' +
   'precision mediump float;\n' +

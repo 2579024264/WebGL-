@@ -72,7 +72,7 @@ function main() {
 }
 
 function initVertexBuffers(gl) {
-    // Create a cube
+    // 绘制立方体
     //    v6----- v5
     //   /|      /|
     //  v1------v0|
